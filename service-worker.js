@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/kumavis/tendermint-deps-explorer/precache-manifest.1af5bb5f0f9492a438ba2bf8e745df0e.js"
+  "/tendermint-deps-explorer/precache-manifest.948dafbfdd8e339a52c41bde4f3bb5a0.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/kumavis/tendermint-deps-explorer/index.html", {
+workbox.routing.registerNavigationRoute("/tendermint-deps-explorer/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
