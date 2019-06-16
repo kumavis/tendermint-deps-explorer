@@ -1,0 +1,542 @@
+{
+  "resources": {
+    "<root>": {
+      "modules": {
+        "axios": true,
+        "buffer": true,
+        "camelcase": true,
+        "create-hash": true,
+        "debug": true,
+        "events": true,
+        "json-stable-stringify": true,
+        "ndjson": true,
+        "old": true,
+        "pumpify": true,
+        "supercop.js": true,
+        "url": true,
+        "varstruct": true,
+        "websocket-stream": true
+      }
+    },
+    "asn1.js": {
+      "modules": {
+        "bn.js": true,
+        "buffer": true,
+        "inherits": true,
+        "minimalistic-assert": true,
+        "vm-browserify": true
+      }
+    },
+    "axios": {
+      "environment": "unfrozen",
+      "globals": {
+        "FormData": true,
+        "URLSearchParams": true,
+        "XMLHttpRequest": true,
+        "btoa": true,
+        "document": true,
+        "document.cookie": true,
+        "document.createElement": true,
+        "location.href": true,
+        "navigator": true,
+        "navigator.userAgent": true
+      },
+      "modules": {
+        "is-buffer": true,
+        "process": true
+      }
+    },
+    "bn.js": {
+      "environment": "unfrozen",
+      "modules": {
+        "browser-resolve": true
+      }
+    },
+    "brorand": {
+      "globals": {
+        "crypto": true,
+        "msCrypto": true
+      },
+      "modules": {
+        "browser-resolve": true
+      }
+    },
+    "browserify": {
+      "modules": {
+        "browser-resolve": true
+      }
+    },
+    "browserify-aes": {
+      "modules": {
+        "buffer": true,
+        "buffer-xor": true,
+        "cipher-base": true,
+        "evp_bytestokey": true,
+        "inherits": true,
+        "safe-buffer": true
+      }
+    },
+    "browserify-cipher": {
+      "modules": {
+        "browserify-aes": true,
+        "browserify-des": true,
+        "evp_bytestokey": true
+      }
+    },
+    "browserify-des": {
+      "modules": {
+        "cipher-base": true,
+        "des.js": true,
+        "inherits": true,
+        "safe-buffer": true
+      }
+    },
+    "browserify-rsa": {
+      "modules": {
+        "bn.js": true,
+        "buffer": true,
+        "randombytes": true
+      }
+    },
+    "browserify-sign": {
+      "modules": {
+        "bn.js": true,
+        "browserify-rsa": true,
+        "buffer": true,
+        "create-hash": true,
+        "create-hmac": true,
+        "elliptic": true,
+        "inherits": true,
+        "parse-asn1": true,
+        "stream-browserify": true
+      }
+    },
+    "buffer": {
+      "environment": "unfrozen",
+      "globals": {
+        "console": true
+      },
+      "modules": {
+        "base64-js": true,
+        "ieee754": true
+      }
+    },
+    "buffer-xor": {
+      "modules": {
+        "buffer": true
+      }
+    },
+    "cipher-base": {
+      "modules": {
+        "inherits": true,
+        "safe-buffer": true,
+        "stream-browserify": true,
+        "string_decoder": true
+      }
+    },
+    "core-util-is": {
+      "modules": {
+        "is-buffer": true
+      }
+    },
+    "create-ecdh": {
+      "modules": {
+        "bn.js": true,
+        "buffer": true,
+        "elliptic": true
+      }
+    },
+    "create-hash": {
+      "modules": {
+        "buffer": true,
+        "cipher-base": true,
+        "inherits": true,
+        "ripemd160": true,
+        "sha.js": true
+      }
+    },
+    "create-hmac": {
+      "modules": {
+        "cipher-base": true,
+        "create-hash": true,
+        "inherits": true,
+        "ripemd160": true,
+        "safe-buffer": true,
+        "sha.js": true
+      }
+    },
+    "crypto-browserify": {
+      "modules": {
+        "browserify-cipher": true,
+        "browserify-sign": true,
+        "create-ecdh": true,
+        "create-hash": true,
+        "create-hmac": true,
+        "diffie-hellman": true,
+        "pbkdf2": true,
+        "public-encrypt": true,
+        "randombytes": true,
+        "randomfill": true
+      }
+    },
+    "debug": {
+      "globals": {
+        "chrome": true,
+        "console": true,
+        "document": true,
+        "localStorage": true,
+        "navigator": true
+      },
+      "modules": {
+        "ms": true,
+        "process": true
+      }
+    },
+    "des.js": {
+      "modules": {
+        "inherits": true,
+        "minimalistic-assert": true
+      }
+    },
+    "diffie-hellman": {
+      "modules": {
+        "bn.js": true,
+        "buffer": true,
+        "miller-rabin": true,
+        "randombytes": true
+      }
+    },
+    "duplexify": {
+      "modules": {
+        "buffer": true,
+        "end-of-stream": true,
+        "inherits": true,
+        "process": true,
+        "readable-stream": true,
+        "stream-shift": true
+      }
+    },
+    "elliptic": {
+      "modules": {
+        "bn.js": true,
+        "brorand": true,
+        "hash.js": true,
+        "hmac-drbg": true,
+        "inherits": true,
+        "minimalistic-assert": true,
+        "minimalistic-crypto-utils": true
+      }
+    },
+    "end-of-stream": {
+      "modules": {
+        "once": true
+      }
+    },
+    "events": {
+      "globals": {
+        "console": true
+      }
+    },
+    "evp_bytestokey": {
+      "modules": {
+        "md5.js": true,
+        "safe-buffer": true
+      }
+    },
+    "hash-base": {
+      "modules": {
+        "buffer": true,
+        "inherits": true,
+        "safe-buffer": true,
+        "stream-browserify": true
+      }
+    },
+    "hash.js": {
+      "modules": {
+        "inherits": true,
+        "minimalistic-assert": true
+      }
+    },
+    "hmac-drbg": {
+      "modules": {
+        "hash.js": true,
+        "minimalistic-assert": true,
+        "minimalistic-crypto-utils": true
+      }
+    },
+    "inherits": {
+      "environment": "unfrozen"
+    },
+    "int53": {
+      "globals": {
+        "console.assert": true
+      }
+    },
+    "json-stable-stringify": {
+      "modules": {
+        "jsonify": true
+      }
+    },
+    "md5.js": {
+      "modules": {
+        "hash-base": true,
+        "inherits": true,
+        "safe-buffer": true
+      }
+    },
+    "miller-rabin": {
+      "modules": {
+        "bn.js": true,
+        "brorand": true
+      }
+    },
+    "ndjson": {
+      "modules": {
+        "json-stringify-safe": true,
+        "os-browserify": true,
+        "split2": true,
+        "through2": true
+      }
+    },
+    "old": {
+      "modules": {
+        "object-assign": true
+      }
+    },
+    "once": {
+      "modules": {
+        "wrappy": true
+      }
+    },
+    "os-browserify": {
+      "globals": {
+        "location": true,
+        "navigator": true
+      }
+    },
+    "parse-asn1": {
+      "modules": {
+        "asn1.js": true,
+        "browserify-aes": true,
+        "evp_bytestokey": true,
+        "pbkdf2": true,
+        "safe-buffer": true
+      }
+    },
+    "path-browserify": {
+      "modules": {
+        "process": true
+      }
+    },
+    "pbkdf2": {
+      "modules": {
+        "create-hash": true,
+        "is-buffer": true,
+        "process": true,
+        "ripemd160": true,
+        "safe-buffer": true,
+        "sha.js": true
+      }
+    },
+    "process": {
+      "globals": {
+        "clearTimeout": true,
+        "setTimeout": true
+      }
+    },
+    "process-nextick-args": {
+      "modules": {
+        "process": true
+      }
+    },
+    "public-encrypt": {
+      "modules": {
+        "bn.js": true,
+        "browserify-rsa": true,
+        "create-hash": true,
+        "parse-asn1": true,
+        "randombytes": true,
+        "safe-buffer": true
+      }
+    },
+    "pump": {
+      "modules": {
+        "browser-resolve": true,
+        "end-of-stream": true,
+        "once": true
+      }
+    },
+    "pumpify": {
+      "modules": {
+        "duplexify": true,
+        "inherits": true,
+        "pump": true
+      }
+    },
+    "randombytes": {
+      "modules": {
+        "process": true,
+        "safe-buffer": true
+      }
+    },
+    "randomfill": {
+      "modules": {
+        "process": true,
+        "randombytes": true,
+        "safe-buffer": true
+      }
+    },
+    "readable-stream": {
+      "modules": {
+        "browser-resolve": true,
+        "core-util-is": true,
+        "events": true,
+        "inherits": true,
+        "isarray": true,
+        "process": true,
+        "process-nextick-args": true,
+        "safe-buffer": true,
+        "string_decoder": true,
+        "timers-browserify": true,
+        "util-deprecate": true
+      }
+    },
+    "ripemd160": {
+      "modules": {
+        "buffer": true,
+        "hash-base": true,
+        "inherits": true
+      }
+    },
+    "safe-buffer": {
+      "modules": {
+        "buffer": true
+      }
+    },
+    "sha.js": {
+      "modules": {
+        "inherits": true,
+        "safe-buffer": true
+      }
+    },
+    "split2": {
+      "modules": {
+        "string_decoder": true,
+        "through2": true
+      }
+    },
+    "stream-browserify": {
+      "modules": {
+        "events": true,
+        "inherits": true,
+        "readable-stream": true
+      }
+    },
+    "string_decoder": {
+      "modules": {
+        "safe-buffer": true
+      }
+    },
+    "supercop.js": {
+      "environment": "unfrozen",
+      "globals": {
+        "Blob": true,
+        "Element": true,
+        "Image": true,
+        "XMLHttpRequest": true,
+        "addEventListener": true,
+        "clearInterval": true,
+        "console": true,
+        "crypto": true,
+        "document": true,
+        "indexedDB": true,
+        "location.pathname": true,
+        "navigator": true,
+        "pageXOffset": true,
+        "pageYOffset": true,
+        "postMessage": true,
+        "prompt": true,
+        "requestAnimationFrame": true,
+        "screen": true,
+        "scrollX": true,
+        "scrollY": true,
+        "setInterval": true,
+        "setTimeout": true
+      },
+      "modules": {
+        "browserify": true,
+        "buffer": true,
+        "crypto-browserify": true,
+        "path-browserify": true,
+        "process": true
+      }
+    },
+    "through2": {
+      "modules": {
+        "process": true,
+        "readable-stream": true,
+        "util": true,
+        "xtend": true
+      }
+    },
+    "timers-browserify": {
+      "globals": {
+        "clearInterval": true,
+        "clearTimeout": true,
+        "setInterval": true,
+        "setTimeout": true
+      },
+      "modules": {
+        "process": true
+      }
+    },
+    "url": {
+      "modules": {
+        "punycode": true,
+        "querystring-es3": true
+      }
+    },
+    "util": {
+      "globals": {
+        "console.error": true,
+        "console.log": true,
+        "console.trace": true
+      },
+      "modules": {
+        "inherits": true,
+        "process": true
+      }
+    },
+    "util-deprecate": {
+      "globals": {
+        "console.trace": true,
+        "console.warn": true
+      }
+    },
+    "varstruct": {
+      "modules": {
+        "buffer": true,
+        "int53": true
+      }
+    },
+    "vm-browserify": {
+      "globals": {
+        "document.body.appendChild": true,
+        "document.body.removeChild": true,
+        "document.createElement": true
+      }
+    },
+    "websocket-stream": {
+      "globals": {
+        "WebSocket": true,
+        "setTimeout": true
+      },
+      "modules": {
+        "duplexify": true,
+        "process": true,
+        "readable-stream": true,
+        "safe-buffer": true
+      }
+    }
+  }
+}

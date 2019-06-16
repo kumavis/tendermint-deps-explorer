@@ -4,12 +4,7 @@ import Nav from './views/nav'
 const DepGraph = require('./graphs/DepGraph')
 
 const bundles = {
-  'background': require('./data/deps-background.json'),
-  'contentscript': require('./data/deps-contentscript.json'),
-  'inpage': require('./data/deps-inpage.json'),
-  'libs': require('./data/deps-libs.json'),
-  'phishing-detect': require('./data/deps-phishing-detect.json'),
-  'ui': require('./data/deps-ui.json'),
+  'js-tendermint': require('./data/deps.json'),
 }
 const bundleNames = Object.keys(bundles)
 
@@ -21,7 +16,7 @@ class App extends Component {
     super()
     this.state = {
       mode: routes[0],
-      bundle: 'background',
+      bundle: 'js-tendermint',
     }
   }
 

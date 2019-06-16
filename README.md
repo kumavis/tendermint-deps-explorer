@@ -1,6 +1,6 @@
-# MetaMask Dependency Explorer
+# Tendermint Dependency Explorer
 
-This is an experiment in exploring metamask's js bundles and dependency graph. See it here: https://kumavis.github.io/metamask-deps-explorer 
+This is an experiment in exploring Tendermint's js bundles and dependency graph. See it here: https://kumavis.github.io/tendermint-deps-explorer 
 
 
 

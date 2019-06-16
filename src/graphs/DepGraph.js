@@ -109,10 +109,12 @@ function createModuleGraph (bundleData) {
   Object.keys(bundleData).forEach(parentId => {
     const { file, packageName, deps, size, entry } = bundleData[parentId]
     const scale = 1 / 20
-    const radius = scale * Math.sqrt(size)
+    // const radius = scale * Math.sqrt(size)
+    const radius = 5
     // const radius = 5
-    const fileSizeLabel = labelForFileSize(size)
-    const label = `${fileSizeLabel} ${packageName}\n${file}`
+    // const fileSizeLabel = labelForFileSize(size)
+    // const label = `${fileSizeLabel} ${packageName}\n${file}`
+    const label = `${packageName}\n${file}`
     const isEntryPackage = packageName === '<entry>'
     // entry module is orange
     // entry pacakge (app code) is blue
