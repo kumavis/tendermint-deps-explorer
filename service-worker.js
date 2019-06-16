@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/kumavis/tendermint-deps-explorer/precache-manifest.ea0222fa83af425dd78c1c746ebce5a6.js"
+  "/kumavis/tendermint-deps-explorer/precache-manifest.6cb81f97faae54faf39c14c7ca35bad4.js"
 );
 
 workbox.clientsClaim();
