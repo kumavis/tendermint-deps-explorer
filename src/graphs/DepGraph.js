@@ -87,7 +87,7 @@ function createPackageGraph (bundleData) {
     // add deps
     Object.values(module.deps).forEach(id => {
       // use `id` so that there are not redundant links. the actual key is not important.
-      pack.deps[id] = id
+      pack.deps[id] = bundleData[id].package
     })
   })
 
